@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+ul,ol{
+    text-decoration: none;
+}
+a{
+    list-style: none;
+}
+/*header part css start*/
+.header h1{
+    height: 60px;
+    width: 40px;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    font-weight: bold;
+    color: #fff;
+ 
+}
+.header{
+    background: #3a3af5;
+}
+.header ul{
+    
+}
+.header ul li{
+    display: inline-block;
+    margin-top: 15px;
+    border: 2px solid #13936c;
+    margin-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    transition: all linear .3s;
+    border-radius: 10px;
+    
+}
+.header ul li:hover {
+    background-color: dodgerblue;
+    border: 1px solid dodgerblue;
+    transition: all linear .3s;
+    
+}
+.header ul li a{
+    padding: 30px 20px;
+    color: #fff;
+    text-decoration: none;
+}
+/*header part css end*/
+/*banner part css start*/
+.banner{
+    background: url(../image/google.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+/*
+    padding-top: 50px;
+    margin-top: 20px;
+*/
+   
+}
+.banner_overlay{
+    padding: 200px 0px;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+.banner_con h2{
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.banner_con p{
+    color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-weight: lighter;
+    font-size: 22px;
+    padding-bottom: 20px;
+}
+.button a{
+    padding: 15px 25px;
+    background-color: darkred;
+    text-align: center;
+    margin-left: 480px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: aliceblue;
+    border: 0.5px solid aqua;
+    transition: all linear .3s;
+}
+.button a:hover {
+    background-color: blue;
+    transition: all linear .3s;
+    border: 0.5px solid blue;
+}
+/*banner part css end*/
+/*about part css start*/
+.about{
+    background-color: rgba(57, 61, 65, 0.28);
+    height: 230px;
+}
+.about_con h2{
+    color: darkmagenta;
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.about_con p{
+    color: midnightblue;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    text-align: center;
+    
+}
+/*about part css end*/
+/*sevice part css start*/
+.service{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+.card span i{
+    background-color: dodgerblue;
+    padding: 15px 20px;
+    border-radius: 13px 0px 13px 0px;
+    color: aliceblue;
+    font-size: 20px;
+    transition: all linear .3s;
+}
+.card span i:hover {
+    background-color: purple;
+    transition: all linear .3s;
+}
+.card h4{
+    color: blue;
+    font-size: 30px;
+     font-family: sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.card p{
+    color: black;
+    font-size: 15px;
+     font-family: sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    
+}
+/*sevice part css end*/
+/*product part css start*/
+.product{
+    background-color: rgba(128, 128, 128, 0.67);
+    padding-top: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.product_icon{
+    padding-bottom: 10px;
+}
+.product_con{
+    font-size: 15px;
+    color: darkviolet;
+    font-weight: bold;
+    font-weight: 400;
+}
+.product_right h1{
+    background-color: darkred;
+    text-align: center;
+    color: ghostwhite;
+    font-family: sans-serif;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.product_right ul{
+    list-style: none;
+    padding-left: 0;
+}
+.product_right ul li{
+    background-color: cadetblue;
+    margin-bottom: 3px;
+    padding: 10px 5px;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 10px;
+    transition: all linear .3s;
+}
+.product_right ul li:hover{
+    background-color: darkblue;
+     border: 1px solid blue;
+    transition: all linear .3s;
+    color: white;
+    
+}
+/*product part css end*/
+/*contact part html start*/
+.contact{
+    background-color: #0a8383;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.google-map{
+    padding-top: 20px;
+}
+ 
+.form_con h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 41px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 20px;
+}
+.form_con p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #999999;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.form_main{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.form_main form input{
+    height: 60px;
+    width: 480px;
+    border: 2px solid #999999;
+    background-color: #343f51;
+    color: #88898c;
+    text-align: center;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 360px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.form_main textarea{
+     height: 160px;
+    width: 480px;
+    border: 2px solid #999999;
+    background-color: #343f51;
+    color: #88898c;
+    text-align: center;
+    
+    justify-content: center;
+    align-items: center;
+    padding-right: 380px;
+    padding-top: 10px;
+    border-radius: 5px;
+}
+.form_main button{
+    height: 45px;
+    width: 140px;
+    background-color: #343f51;
+    border: 2px solid #15a4fa;
+    border-radius: 5px;
+    color: #fff;
+    
+    transition: all linear .3s;
+}
+.form_main button:hover {
+    background-color: #15a4fa;
+    transition: all linear .3s;
+}   
+
+/*contact part html end*/
+/*footer part css start*/
+footer{
+    background-color: rgba(0, 0, 0, 0.51);
+    margin-bottom: 10px;
+    padding-top: 15px;
+  
+}
+.footer_con p{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 5px;
+}
+.footer_icon{
+    
+  float: right;       
+}
+.footer_icon ul{
+    float: left;
+}
+.footer_icon ul li{
+    float: left;
+    padding: 0px 10px;
+    border: 2px solid red;
+    margin: 0px 10px;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-left: 20px;
+    transition: all linear .3s;
+    list-style: none;
+}
+.footer_icon ul li a{
+    font-size: 23px;
+    padding-top: 20px;
+    color: aliceblue;
+    text-align: center;
+    margin-right: 20px;
+    
+}
+.footer_icon ul li:hover {
+    background-color: darkmagenta;
+    border: 2px solid darkmagenta;
+    transition: all linear .3s;
+}
+/*footer part css end*/
